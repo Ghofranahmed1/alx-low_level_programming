@@ -7,7 +7,7 @@
 *
 *the proggtam is to find the value of last gigit in a given number
 *
-*return: always 0 (suuess)
+*Return: always 0 (suuess)
 *
 */
 
