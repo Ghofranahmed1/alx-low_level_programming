@@ -6,8 +6,8 @@
 *main - Entry point
 *
 *the proggtam is to find the value of last gigit in a given number
-
-*return:always 0 (suuess)
+*
+*return: always 0 (suuess)
 *
 */
 
