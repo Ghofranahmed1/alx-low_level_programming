@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int c, e, q;
+	int c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{		
