@@ -3,9 +3,12 @@
 #include<stdio.h>
 
 /*
-* main - Entry piont
+*main - Entry piont
 *
-*Return:always 0 (success)
+*the program is to find is the numer is bositive or negative
+*
+ *Return: always 0 (success)
+*
 */
 int main(void)
 {
@@ -20,4 +23,4 @@ int main(void)
 	else
 		printf("%d is negative\n", n);
 	return (0);
-}
+{	
