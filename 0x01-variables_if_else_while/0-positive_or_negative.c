@@ -2,12 +2,12 @@
 #include <time.h>
 #include<stdio.h>
 
-/*
-*main - Entry piont
+/**
+*main - Entry point
 *
-*the program is to find is the numer is bositive or negative
+*the proggtam is to find if the number is negative or positive
 *
-*Return: always 0 (success)
+*Return: always 0 (suuess)
 *
 */
 int main(void)
