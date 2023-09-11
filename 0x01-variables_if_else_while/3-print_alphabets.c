@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*main - Entry point 
+*main - Entry point
 *
 *this program write alphabet is lower and biger case
 *
@@ -11,11 +11,12 @@
 int main(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
 	for (c = 'A'; c <= 'Z'; c++)
 		putchar(c);
-	putchar('\n');
+	putchar ('\n');
 
 	return(0);
 }
