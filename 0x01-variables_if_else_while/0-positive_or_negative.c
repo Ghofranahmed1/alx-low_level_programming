@@ -7,7 +7,7 @@
 *
 *the program is to find is the numer is bositive or negative
 *
- *Return: always 0 (success)
+*Return: always 0 (success)
 *
 */
 int main(void)
@@ -23,4 +23,4 @@ int main(void)
 	else
 		printf("%d is negative\n", n);
 	return (0);
-{	
+}	
