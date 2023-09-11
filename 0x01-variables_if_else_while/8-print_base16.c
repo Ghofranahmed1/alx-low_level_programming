@@ -13,9 +13,9 @@ int i;
 
 int main(void)
 {
-	for (i = '0'; i = '9'; i++)
+	for (i = '0'; i <= '9'; i++)
 	putchar(i);
-	for (c = 'a'; c = 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	putchar(c);
         putchar('\n');
 	
