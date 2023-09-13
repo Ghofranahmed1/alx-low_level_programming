@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*print alphabet - Make the alphabet
+*print_alphabet - Make the alphabet
 *
 * print alphabet
 *
