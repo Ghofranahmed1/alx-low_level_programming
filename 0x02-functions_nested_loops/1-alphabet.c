@@ -2,13 +2,17 @@
 #include <stdio.h>
 
 /**
-* print alphabet - Make the alphabet
-* Return void
+*print alphabet - Make the alphabet
+*
+* print alphabet
+*
+*Return: void
 */
 
 void print_alphabet(void)
 {
-	char c; 
+	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
