@@ -1,2 +1,1 @@
-#!/bin/bash
-start learning c language
+0x02. C - Functions, nested loops
