@@ -10,8 +10,8 @@
 
 int _islower(int c)
 {
-         char i;
-         int checker = 0;
+char i;
+int checker = 0;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
