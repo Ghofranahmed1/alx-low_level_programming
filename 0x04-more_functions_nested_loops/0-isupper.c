@@ -12,11 +12,12 @@ int _isupper(int c)
 	char i;
 	int check = 0;
 
-	for (i = 'A'; i <= 'z'; i++)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
-		if (c == i)
+		if (i == c)
 		{
 			check = 1;
+			break;
 		}
 		}
 
