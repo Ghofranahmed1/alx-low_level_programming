@@ -4,7 +4,9 @@
 /**
 *int_isupper function - check upper cases
 *
-*Return: 0 or 1 
+* @c: an input character
+*
+*Return: 0 or 1 if c is uppercase
 */
 
 int _isupper(int c)
@@ -18,7 +20,7 @@ int _isupper(int c)
 		{
 			check = 1;
 		}
-		}	
+		}
 
-         return (check);
-}	
+return (check);
+}
