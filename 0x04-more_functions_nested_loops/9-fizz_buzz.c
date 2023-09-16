@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- * fizz_buzz - program that prints the numbers from 1 to 100
+ * main - Entry point
  * Return: Always 0
  */
-
-int _putchar(char c);
 
 int main(void)
 {
