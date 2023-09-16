@@ -2,7 +2,7 @@
 
 /**
  *  print_line - draws a straight line in the terminal.
- *
+ *@n: An input integer
  * Return: Always 0
  */
 
