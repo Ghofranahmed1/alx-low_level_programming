@@ -2,7 +2,7 @@
 
 /**
  * _abs - unction that computes the absolute value of an integer.
- * @int - an input .
+ * @i: An integer input.
  * Return: 0 always (success)
  */
 
