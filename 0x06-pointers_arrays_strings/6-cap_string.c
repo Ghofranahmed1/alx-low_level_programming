@@ -18,7 +18,7 @@ if (i == 0 && (t[i] >= 'a' && t[i] <= 'z'))
 {
 t[i] -= 32;
 }
-else if (checker(t[i]) && (t[i + 1] >= 'a' && t[i + 1] <= 'z'))
+if (checker(t[i]) && (t[i + 1] >= 'a' && t[i + 1] <= 'z'))
 {
 t[i + 1] -= 32;
 }
