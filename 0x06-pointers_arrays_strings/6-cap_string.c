@@ -21,8 +21,8 @@ t[i] -= 32;
 if (checker(t[i]) && (t[i + 1] >= 'a' && t[i + 1] <= 'z'))
 {
 t[i + 1] -= 32;
+i++
 }
-i++;
 }
 return (temp);
 }
