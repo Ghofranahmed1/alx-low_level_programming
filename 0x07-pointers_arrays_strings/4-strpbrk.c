@@ -33,7 +33,7 @@ char *_strpbrk(char *s, char *accept)
 	}
 	if (flag == 0)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	return (s);
 }
