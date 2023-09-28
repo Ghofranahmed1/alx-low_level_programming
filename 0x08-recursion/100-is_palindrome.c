@@ -17,7 +17,7 @@ int _srtlen_recursion(char *s)
 /**
  * is_palindrome - a fun check if it is palindrome
  * @s: an input string
- * Retur: 1 if is string is a palindrome or 0 in otherwise
+ * Return: 1 if is string is a palindrome or 0 in otherwise
  */
 
 int is_palindrome(char *s)
