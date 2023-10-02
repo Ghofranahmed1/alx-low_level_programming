@@ -2,7 +2,7 @@
 /**
  * main -  program that prints its name
  * @argc: number of element
- * *argv:a pointer contain a strings
+ * @argv:a pointer contain a strings
  * Return: return 0 always
 */
 
