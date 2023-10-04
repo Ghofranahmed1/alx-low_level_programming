@@ -18,12 +18,11 @@ unsigned int i;
 	{
 		return (NULL);
 }
-	{
+if (str == NULL)
+	return (NULL);
 	for (i = 0; i < size; i++)
 	{
 	str[i] = c;
-}
-free (str);
+	}
 return (str);
-}
 }
