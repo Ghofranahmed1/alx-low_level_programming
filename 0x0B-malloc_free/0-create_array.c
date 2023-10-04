@@ -23,6 +23,7 @@ unsigned int i;
 	{
 	str[i] = c;
 }
+free (str);
 return (str);
 }
 }
