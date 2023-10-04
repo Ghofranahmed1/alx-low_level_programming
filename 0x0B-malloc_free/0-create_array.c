@@ -23,6 +23,6 @@ unsigned int i;
 	{
 	str[i] = c;
 }
-return (str)
+return (str);
 }
 }
