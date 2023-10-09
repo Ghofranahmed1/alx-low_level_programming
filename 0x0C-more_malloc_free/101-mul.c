@@ -26,6 +26,7 @@ int is_digit(char *s)
 /**
  *_strlen - return len of srtig
  *@s: string to evaluated
+ * Return: the lenght of the string
  */
 int _strlen(char *s)
 {
