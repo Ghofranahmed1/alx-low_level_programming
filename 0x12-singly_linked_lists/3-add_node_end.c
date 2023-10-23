@@ -29,14 +29,14 @@ new_node->next = NULL;
 if (*head == NULL)
 {
 	*head = new_node;
-	temp = new_node;
 	return (new_node);
 }
 	else
 {
+while(temp->next)
+	temp = temp->next;
 
-temp->next = new_node;
-temp = new_node;
+temp->next = new_node
 return (new_node);
 }
 }
