@@ -36,7 +36,7 @@ if (*head == NULL)
 while(temp->next)
 	temp = temp->next;
 
-temp->next = new_node
+temp->next = new_node;
 return (new_node);
 }
 }
