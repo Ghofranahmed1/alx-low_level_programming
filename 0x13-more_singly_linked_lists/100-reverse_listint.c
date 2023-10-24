@@ -10,6 +10,9 @@
 	listint_t *pre = NULL;
 	listint_t *next;
 
+	if (*head == NULL)
+		return (NULL);
+
 	while (current != NULL)
 	{
 		next = current->next;
