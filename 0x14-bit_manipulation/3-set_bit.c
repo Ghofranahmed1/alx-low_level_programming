@@ -10,7 +10,8 @@
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long binary_num;
-	if (index > (sizeof (unsigned long int) * 8 -1))
+
+	if (index > (sizeof(unsigned long int) * 8 - 1))
 		return (-1);
 	binary_num = 1 << index;
 	*n = *n | binary_num;
