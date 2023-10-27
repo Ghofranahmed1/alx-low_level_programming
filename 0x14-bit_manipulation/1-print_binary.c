@@ -3,7 +3,7 @@
 /**
  * print_binary -  function that prints the binary representation
  * of a number.
- * @ n: number to be converted 
+ * @n: number to be converted
  * Return: nothing
  */
 
@@ -11,10 +11,10 @@ void print_binary(unsigned long int n)
 {
 	unsigned long int binary;
 	/** make sure to print the binary number without leading zeros */
-	int flag = 0; 
+	int flag = 0;
 
 	if (n == 0)
-		printf ("0");
+		printf("0");
 
 	binary = 1UL << ((sizeof(unsigned long int) * 8) - 1);
 	while (binary)
