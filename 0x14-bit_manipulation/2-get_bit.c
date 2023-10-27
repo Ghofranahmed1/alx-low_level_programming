@@ -15,7 +15,11 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (-1);
 	/* this give me a binary num that have only 1 in index position */
 	divisor = 1 << index;
-	/* this sum opetetor if the index in n is the same as it in divisor the result will be 1 and all other bits will be 0 */
+	/*
+	 * this sum opetetor if the index in n is the
+	 * same as it in divisor the result will be 1 and all other bits
+	 * will be 0
+	 */
 	check = n & divisor;
 	if (check == divisor)
 		return (1);
