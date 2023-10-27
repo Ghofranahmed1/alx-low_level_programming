@@ -10,6 +10,8 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int binary;
+	/** make sure to print the binary number without leading zeros */
+	int flag = 0; 
 
 	if (n == 0)
 		printf ("0");
@@ -18,8 +20,11 @@ void print_binary(unsigned long int n)
 	while (binary)
 	{
 		if ((n & binary) == binary)
+		{
 			printf("1");
-		else
+			flag = 1;
+		}
+		else if (flag)
 			printf("0");
 		binary = binary >> 1;
 	}
