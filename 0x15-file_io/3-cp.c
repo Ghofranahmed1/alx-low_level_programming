@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 		}
 		else if (read_byte == -1)
 		{
-			dprintf(STDERR_FILENO,"Error: Can't read from file %s",argv[1]);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s", argv[1]);
 			exit(98);
 		}
 	}
