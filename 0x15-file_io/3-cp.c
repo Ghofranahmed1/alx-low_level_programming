@@ -30,6 +30,7 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		close(fd_from), close(fd_to), exit(99);
 	}
+	}
 	if (close(fd_from) == -1)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_from), exit(100);
 	if (close(fd_to) == -1)
