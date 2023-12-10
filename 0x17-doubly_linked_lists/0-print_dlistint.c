@@ -15,11 +15,14 @@ size_t print_dlistint(const dlistint_t *h)
 		dprintf(2, "Error: empty list\n");
 			return (EXIT_FAILURE);
 	}
+	else
+	{
 	while (temp != NULL)
 	{
 		printf("%d\n", temp->n);
 		nodes++;
 		temp = temp->next;
+	}
 	}
 	return (nodes);
 }
