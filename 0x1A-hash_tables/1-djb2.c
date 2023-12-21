@@ -4,7 +4,7 @@
  *
  * Return: The hash number
  */
-unsi
+
 unsigned long int hash_djb2(const unsigned char *str)
 {
 unsigned long int hash;
