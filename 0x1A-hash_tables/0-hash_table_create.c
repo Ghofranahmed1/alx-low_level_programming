@@ -8,7 +8,7 @@
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *table;
-	int i = 0;
+	unsigned long int i = 0;
 
 	table = malloc(sizeof(hash_table_t));
 	if (table == NULL)
@@ -19,7 +19,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	table->array = calloc(table->size, sizeof(hash_node_t));
 	if (table->array == NULL)
 	{
-		fprintf(stderr, "Error: malloc failed\n")
+		fprintf(stderr, "Error: malloc failed\n");
 		return (NULL);
 	}
 	for (i = 0; i < size; i++)
