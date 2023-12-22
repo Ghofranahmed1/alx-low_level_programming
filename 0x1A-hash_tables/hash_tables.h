@@ -4,6 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include <string.h>
+#include <stddef.h>
 /**
  * struct hash_node_s - Node of a hash table
  *
@@ -40,4 +41,5 @@ hash_node_t *set_pair(const char *key, const char *value);
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 int set_pair_only(hash_table_t *ht, const char *key,
 		  const char *value, unsigned long int index);
+char *hash_table_get(const hash_table_t *ht, const char *key);
 #endif
