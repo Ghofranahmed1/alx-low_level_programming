@@ -45,7 +45,7 @@ int set_pair_only(hash_table_t *ht, const char *key, const char *value,
 }
 /**
  * hash_table_set - function that adds an element to the hash table.
- * @ ht: the hash table
+ * @ht: the hash table
  * @key: the key
  * @value:  the value associated with the key.
  * Return: 1 if it succeeded, 0 otherwise
